@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="kr">
+	<head>
+	<meta charset="UTF-8">
+	<title>외주 천국</title>
+
+<style>
+body {
+  background-color: #1D1D1D;
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Droid Sans', sans-serif;
+  color: #fff;
+}
+body:before {
+  content: '';
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  bottom: 0px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 4px;
+  background-color: #fff;
+}
+body .entries {
+  width: calc(100% - 80px);
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  left: -5px;
+}
+body .entries .entry {
+  width: calc(50% - 80px);
+  float: left;
+  padding: 20px;
+  clear: both;
+  text-align: right;
+}
+body .entries .entry:not(:first-child) {
+  margin-top: -60px;
+}
+body .entries .entry .title {
+  font-size: 32px;
+  margin-bottom: 12px;
+  position: relative;
+}
+body .entries .entry .title:before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 4px solid #ffffff;
+  background-color: #1D1D1D;
+  border-radius: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: -73px;
+  z-index: 1000;
+}
+body .entries .entry .title.big:before {
+  width: 24px;
+  height: 24px;
+  -webkit-transform: translate(8px, -50%);
+          transform: translate(8px, -50%);
+}
+body .entries .entry .body {
+  color: #aaa;
+}
+body .entries .entry .body p {
+  line-height: 1.4em;
+}
+body .entries .entry:nth-child(2n) {
+  text-align: left;
+  float: right;
+}
+body .entries .entry:nth-child(2n) .title {
+  font-size: 32px;
+}
+body .entries .entry:nth-child(2n) .title:before {
+  left: -63px;
+}
+body .entries .entry:nth-child(2n) .title.big:before {
+  width: 24px;
+  height: 24px;
+  -webkit-transform: translate(-8px, -50%);
+          transform: translate(-8px, -50%);
+}
+
+</style>
+</head>
+<body>
+
+<div class="timeline">
+  <div class="entries">
+    <div class="entry">
+      <div class="title">2015.3</div>
+      <div class="body">
+        <p>외주라는 개념을 처음 알게 됨.</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="title">2015.6</div>
+      <div class="body">
+        <p>여러 외주사이트들의 장단점을 취미로 분석함</p>
+      </di>
+    </div>
+    <div class="entry">
+      <div class="title big">2016.3</div>
+      <div class="body">
+        <p>선린인터넷고등학교에 진학해서 외주사이트를 만들 계획을 세움</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="title">2016.5</div>
+      <div class="body">
+        <p>c언어와 html을 공부함</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="title">2016.8</div>
+      <div class="body">
+       <p>css와 javascript를 공부함.</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="title big">2017.3</div>
+      <div class="body">
+        <p>선린에 들어와서 다양한 웸프로젝트를 진행함.</p>
+      </div>
+    </div>
+    <div class="entry">
+      <div class="title">2017.11</div>
+      <div class="body">
+        <p>이 외주천국이라는 외주사이트를 제작하게 됨.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script type="text/javascript">
+</script>
+</body>
+</html>
